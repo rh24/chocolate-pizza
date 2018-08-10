@@ -38,11 +38,15 @@ div.list ul {
   list-style: none;
 }
 
+li {
+  margin-bottom: 11px;
+}
+
 .left-list {
-  flex: 0 0 0%;
-  margin-right: 200px;
+  flex: 1;
+  margin-right: 40px;
 }
 
 .right-list {
-  flex: 1;
+  flex: 2;
 }
