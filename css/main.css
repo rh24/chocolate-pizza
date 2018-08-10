@@ -49,7 +49,11 @@ li {
   margin-bottom: 11px;
 }
 
-div.list ul li:checked {
+input[type="checkbox"]:checked {
+  text-decoration: line-through;
+}
+
+.list li:checked {
   text-decoration: line-through;
 }
 
