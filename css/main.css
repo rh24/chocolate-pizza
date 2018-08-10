@@ -24,8 +24,14 @@ section {
 }
 
 div.list {
+  background-image: url('../lab-assets/list-bg.png');
   max-width: 65%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+  min-height: 305px;
+
+}
+
+div.list {
 }
