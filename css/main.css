@@ -3,11 +3,13 @@
 }
 
 .pizza-article p {
-  padding-right: 20px
+  padding-right: 20px;
+  max-width: 97%;
+  margin-bottom: 20px;
 }
 
 section {
-  display: block;
+  display: block;;
   max-width: 100%;
 }
 
@@ -38,7 +40,7 @@ div.list {
 }
 
 div.list ul {
-  padding-top: 30px;
+  padding-top: 47px;
   list-style: none;
 }
 
@@ -46,9 +48,14 @@ li {
   margin-bottom: 11px;
 }
 
+div.list ul li:checked {
+  text-decoration: line-through;
+}
+
 .left-list {
   flex: 1;
   margin-right: 40px;
+  margin-left: 60px;
 }
 
 .right-list {
