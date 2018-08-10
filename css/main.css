@@ -1,0 +1,24 @@
+.pizza-article span {
+  padding-left: 20px;
+}
+
+.pizza-article p {
+  padding-right: 20px
+}
+
+section {
+  display: block;
+  max-width: 100%;
+}
+
+.pizza-article div {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
