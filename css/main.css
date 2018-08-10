@@ -1,3 +1,4 @@
+
 #header > div, #header > img {
     display: inline-block;
     vertical-align: middle;
@@ -10,4 +11,68 @@
 #social div{
     margin-left: auto;
     margin-right: 0px;
+}
+
+.pizza-article span {
+  padding-left: 20px;
+}
+
+.pizza-article p {
+  padding-right: 20px;
+  max-width: 97%;
+  margin-bottom: 20px;
+}
+
+section {
+  display: block;;
+  max-width: 100%;
+}
+
+.pizza-article img {
+}
+
+.pizza-article div {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.list {
+  background-image: url('../lab-assets/list-bg.png');
+  background-repeat: no-repeat;
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  min-height: 305px;
+  display: flex;
+}
+
+div.list ul {
+  padding-top: 47px;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 11px;
+}
+
+div.list ul li:checked {
+  text-decoration: line-through;
+}
+
+.left-list {
+  flex: 1;
+  margin-right: 40px;
+  margin-left: 60px;
+}
+
+.right-list {
+  flex: 2;
 }
