@@ -64,7 +64,7 @@ li {
   margin-bottom: 11px;
 }
 
-div.list ul li:checked {
+.strikethrough:checked + span {
   text-decoration: line-through;
 }
 
