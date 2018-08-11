@@ -4,13 +4,43 @@
     vertical-align: middle;
 }
 
+#icon{
+  width: 40px;
+}
+#blogtitle{
+  font-family: 'Yellowtail', cursive;
+  font-size: 2em;
+}
+
+#blogsub{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: .5em;
+}
+
+#footer > div, #footer > img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#footer > div {
+  padding-left: 10px;
+  font-family: Cambria;
+}
+
+#name {
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.25em
+  
+}
+
 #share {
     margin-left: 10px
 }
 
-#social div{
-    margin-left: auto;
-    margin-right: 0px;
+#social {
+float: right;
+padding: 15px;
 }
 
 .pizza-article span {
