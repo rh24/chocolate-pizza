@@ -90,3 +90,18 @@ li {
 .right-list {
   flex: 2;
 }
+
+
+  /* background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+  ); */
+
+  .gradient hr {
+    background: repeating-linear-gradient(45deg, #9B9B9B, #9B9B9B 1px, #FFFFFF 2px, #FFFFFF 4px);
+    height: 10px;
+    max-width: 64%;
+  }
