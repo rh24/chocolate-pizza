@@ -45,6 +45,17 @@ section {
   margin-right: auto;
 }
 
+.heading p#title {
+  font: 35px 'Oswald', sans-serif;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.heading p {
+  font: 10px Franklin Gothic, sans-serif;
+  margin-bottom: 20px;
+}
+
 div.list {
   background-image: url('../lab-assets/list-bg.png');
   background-repeat: no-repeat;
@@ -59,6 +70,7 @@ div.list {
 div.list ul {
   padding-top: 47px;
   list-style: none;
+  font: 14px Arial, sans-serif; 
 }
 
 li {
