@@ -21,6 +21,7 @@
   padding-right: 20px;
   max-width: 97%;
   margin-bottom: 20px;
+  font: 14px Cambria, serif;
 }
 
 section {
@@ -29,6 +30,7 @@ section {
 }
 
 .pizza-article img {
+  margin-bottom: 20px;
 }
 
 .pizza-article div {
@@ -41,6 +43,17 @@ section {
   max-width: 65%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.heading p#title {
+  font: 35px 'Oswald', sans-serif;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.heading p {
+  font: 10px Franklin Gothic, sans-serif;
+  margin-bottom: 20px;
 }
 
 div.list {
@@ -57,13 +70,14 @@ div.list {
 div.list ul {
   padding-top: 47px;
   list-style: none;
+  font: 14px Arial, sans-serif; 
 }
 
 li {
   margin-bottom: 11px;
 }
 
-div.list ul li:checked {
+.strikethrough:checked + span {
   text-decoration: line-through;
 }
 
@@ -76,3 +90,18 @@ div.list ul li:checked {
 .right-list {
   flex: 2;
 }
+
+
+  /* background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+  ); */
+
+  .gradient hr {
+    background: repeating-linear-gradient(45deg, #9B9B9B, #9B9B9B 1px, #FFFFFF 2px, #FFFFFF 4px);
+    height: 10px;
+    max-width: 64%;
+  }
